@@ -14,6 +14,23 @@ body {
 
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .app-container {
+  height: 100%;
+  background-color: #f0f0f0;
+  background-image: url('../public/images/foonebat\ 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

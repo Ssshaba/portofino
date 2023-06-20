@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Header />
       <Footer />
     </div>
