@@ -40,3 +40,9 @@ code {
 
   background-color: #1C2336;
 } */
+
+
+/* Contacts */
+.contacts {
+  background-color: var(--color-one);
+}
