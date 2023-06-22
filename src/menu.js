@@ -3,7 +3,7 @@ import React from 'react';
 const Menu = () => {
     return (
         <div className="container-lg py-5 text-center">
-            <h2>Меню</h2>
+            <h2 className='text-uppercase'>Меню</h2>
             <div className="row justify-content-center mx-auto" style={{ width: '92%' }}>
                 <div className="col-md-4">
                     <div className="card" style={{ width: '100%', backgroundColor: '#E3E3E3' }}>
