@@ -3,19 +3,16 @@ import './index.css';
 
 function Header() {
     return (
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-                {/* <a href="/" class="">
-                  
-                </a> */}
-                <span class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none fs-4">Portofino</span>
-                <ul class="nav ">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">О нас</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Меню</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+        <header className=" text-uppercase" style={{ background: '#1C2336' }}>
+            <div className="container d-flex flex-wrap justify-content-center py-3 mb-4">
+                <span className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-uppercase text-decoration-none fs-4" style={{ color: '#E3E3E3' }} >Portofino</span>
+                <ul className="nav" >
+                    <li className="nav-item" ><a href="#" className="nav-link active" aria-current="page" style={{ color: '#E3E3E3' }}>О нас</a></li>
+                    <li className="nav-item"><a href="#" className="nav-link" style={{ color: '#E3E3E3' }}>Меню</a></li>
+                    <li className="nav-item"><a href="#" className="nav-link" style={{ color: '#E3E3E3' }}>Контакты</a></li>
                 </ul>
-            </header>
-        </div >
+            </div>
+        </header>
     );
 }
 

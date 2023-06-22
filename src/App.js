@@ -12,12 +12,30 @@ import './index.css';
 function App() {
   return (
     <div className='app-container'>
-      <Header />
-      <Name />
-      <About />
-      <Menu />
-      <Contacts />
-      <Footer />
+
+      <div className='content'>
+        <Header />
+        <div style={{ padding: '17rem  0 0 0' }}>
+          <Name />
+        </div>
+
+        <div style={{ padding: '27rem  0 0 0' }}>
+          <About />
+        </div>
+
+        <div style={{ padding: '15rem  0 0 0' }}>
+          <Menu />
+        </div>
+
+        <div style={{ padding: '5rem  0 6rem 0' }}>
+          <Contacts />
+        </div>
+        <div style={{ padding: ' 0' }}>
+          <Footer />
+        </div>
+      </div>
+
+
     </div>
   );
 }

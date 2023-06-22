@@ -21,7 +21,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  /* font-family: 'Podkova', sans-serif; */
+
 }
+
+body {}
 
 html,
 body,
@@ -31,14 +35,17 @@ body,
   padding: 0;
 }
 
-/* .app-container {
-  height: 100%;
-  background-color: #f0f0f0;
-  background-image: url('../public/images/foonebat\ 1.png');
+.app-container {
+  font-family: 'Podkova', serif;
+}
+
+.content {
+  background-image: url('../public/images/foonebat 1.png');
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-} */
+  background-size: cover;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
